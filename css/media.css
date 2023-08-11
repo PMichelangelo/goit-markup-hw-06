@@ -1,6 +1,21 @@
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
+    margin: 0 auto;
+  }
+
+  .features_li {
+    width: 100%;
+  }
+  .section_three {
+    display: none;
+    padding-bottom: 120px;
+  }
+
+  .team-members-list {
+    display: flex;
+    gap: 74px;
+    padding: 0 66px;
   }
 }
 
@@ -22,6 +37,27 @@
 
   .features_title {
     text-align: start;
+  }
+
+  .team-members-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    padding: 0 87px;
+    flex-direction: row;
+  }
+
+  .team-members-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .customers-ul {
+    gap: 72px 24px;
+    padding: 0 16px;
+  }
+
+  .customers-li {
+    width: calc((100% - 24px) / 4);
   }
 }
 
@@ -61,5 +97,29 @@
 
   .svg-container {
     display: flex;
+  }
+
+  .section_three {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .team-members-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-members-item {
+    display: block;
+    width: calc((100% - 72px) / 4);
+  }
+
+  .customers-li {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
