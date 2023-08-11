@@ -113,8 +113,9 @@ button {
 }
 
 .container {
-  width: 1158px;
-  padding: 0 15px;
+  /*  width: 1158px; */
+  width: 100%;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -281,7 +282,8 @@ button {
 
 .features_ul {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .features_li {
@@ -289,6 +291,7 @@ button {
 }
 
 .svg-container {
+  display: none;
   align-items: center;
   justify-content: center;
   background-color: #f4f4fd;
@@ -298,20 +301,21 @@ button {
 }
 
 .features_title {
+  text-align: center;
   color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
   margin-bottom: 8px;
-  margin-top: 8px;
+  letter-spacing: 0.72px;
 }
 
 .features_text {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   margin: 0;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 /**Section_3**/
