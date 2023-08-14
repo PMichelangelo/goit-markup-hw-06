@@ -277,7 +277,7 @@ button {
 /**Section_2**/
 
 .features {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .features_ul {
@@ -352,7 +352,7 @@ button {
 /**Section_4**/
 .team-members {
   background: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .team-members-div {
@@ -462,7 +462,7 @@ button {
 /**Section-customers**/
 
 .customers-section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .customers-div {
@@ -533,7 +533,7 @@ button {
 
 .footer {
   background-color: var(--footer-background-color);
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-content-div {

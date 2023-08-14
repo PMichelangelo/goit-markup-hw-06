@@ -25,6 +25,10 @@
     padding: 0 21px;
   }
 
+  .features {
+    padding: 96px 0;
+  }
+
   .features_ul {
     display: flex;
     gap: 72px 24px;
@@ -39,6 +43,10 @@
     text-align: start;
   }
 
+  .team-members {
+    padding: 96px 0;
+  }
+
   .team-members-list {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +57,10 @@
 
   .team-members-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .customers-section {
+    padding: 96px 0;
   }
 
   .customers-ul {
@@ -63,7 +75,7 @@
   .footer-content-div {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 0 24px;
     align-items: start;
   }
 
@@ -96,6 +108,12 @@
   .container {
     max-width: 1128px;
     padding: 0;
+  }
+
+  .customers-section,
+  .team-members,
+  .features {
+    padding: 120px 0;
   }
 
   .features_ul {
@@ -169,5 +187,9 @@
 
   .subscribe-wrap {
     margin-left: 80px;
+  }
+
+  .footer {
+    padding: 100px 0;
   }
 }
