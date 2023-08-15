@@ -228,7 +228,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 188px 0;
+  padding: 112px 0;
 }
 
 .div-hero {
@@ -242,11 +242,15 @@ button {
   max-width: 496px;
   text-align: center;
   color: white;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   margin: 0;
   margin-bottom: 72px;
+  padding: 0 54px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding: 0;
 }
 
 .hero_section_button {

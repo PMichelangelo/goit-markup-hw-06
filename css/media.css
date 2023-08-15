@@ -25,6 +25,16 @@
     padding: 0 21px;
   }
 
+  .div-hero {
+    padding: 112px 0;
+  }
+
+  .hero_title {
+    font-size: 56px;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+  }
+
   .features {
     padding: 96px 0;
   }
@@ -114,6 +124,15 @@
   .team-members,
   .features {
     padding: 120px 0;
+  }
+
+  .div-hero {
+    height: 600px;
+    padding: 188px 0;
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
   }
 
   .features_ul {
