@@ -21,6 +21,17 @@
   .modal {
     max-width: none;
   }
+
+  .mob-menu-address-tel {
+    font-size: 36px;
+  }
+  .mob-menu-address-mail {
+    font-size: 20px;
+  }
+
+  .mob-menu-smi {
+    gap: 56px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -118,7 +129,7 @@
   }
 }
 
-@media screen and (min-width: 1326px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1128px;
     padding: 0;

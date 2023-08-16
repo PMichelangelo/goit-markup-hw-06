@@ -44,6 +44,71 @@
           </li>
         </ul>
       </address>
+      <button type="button" class="hamburger-menu-btn" data-menu-open>
+        <svg width="32" height="22" class="hamburger-menu-btn-svg">
+          <use href="./images/icons.svg#icon-menu-hamburger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mob-menu is-hidden" data-menu>
+      <div>
+        <button type="button" class="mob-menu-close-btn" data-menu-close>
+          <svg width="8" height="8" class="modal-close-btn-svg">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="nav-mob-menu list">
+          <li class="nav-mob-menu-item ">
+            <a href="./index.html" class="nav-mob-menu-links link current">Studio</a>
+          </li>
+          <li class="nav-mob-menu-item">
+            <a href="./portfolio.html" class="nav-mob-menu-links link">Portfolio</a>
+          </li>
+          <li class="nav-mob-menu-item">
+            <a href="" class="nav-mob-menu-links link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav-mob-menu-address list">
+          <li>
+            <a href="tel:+110001111111" class="mob-menu-address-tel link">+11 (000) 111-11-11</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="mob-menu-address-mail link">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mob-menu-smi list flex">
+          <li class="smi-members-li">
+            <a href="/" class="team-members-a">
+              <svg width="24" height="24" class="smi-members">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="smi-members-li">
+            <a href="/" class="team-members-a">
+              <svg width="24" height="24" class="smi-members">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="smi-members-li">
+            <a href="/" class="team-members-a">
+              <svg width="24" height="24" class="smi-members">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="smi-members-li">
+            <a href="/" class="team-members-a">
+              <svg width="24" height="24" class="smi-members">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 
@@ -459,6 +524,8 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/my-mobile-menu.js"></script>
 </body>
 
 </html>
