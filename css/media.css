@@ -4,6 +4,10 @@
     margin: 0 auto;
   }
 
+  .hero_section {
+    max-width: unset;
+  }
+
   .features_li {
     width: 100%;
   }
@@ -37,7 +41,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 21px;
+    padding: 0 16px;
   }
 
   .header {
@@ -85,6 +89,7 @@
   }
 
   .hero_section {
+    max-width: unset;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -187,6 +192,23 @@
   .subscribe-input {
     width: 264px;
   }
+
+  .portfolio-section {
+    padding-top: 64px;
+  }
+
+  .portfolio-btns-ul {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-section-button {
+    padding: 12px 24px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -219,6 +241,7 @@
   }
 
   .hero_section {
+    max-width: unset;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -317,5 +340,17 @@
 
   .footer {
     padding: 100px 0;
+  }
+
+  .portfolio-section {
+    padding-top: 100px;
+  }
+
+  .portfolio-btns-ul {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 48px) / 3);
   }
 }
