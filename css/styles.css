@@ -170,8 +170,6 @@ button {
   color: #404bbf;
 }
 
-
-
 .header-nav-links:hover {
   color: #404bbf;
 }
@@ -221,11 +219,14 @@ button {
   justify-content: space-between;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 999;
   background-color: #ffffff;
   width: 100vw;
   height: 100vh;
   padding: 24px 24px 40px 40px;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
 
 .mob-menu.is-open {
